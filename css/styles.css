@@ -1,3 +1,55 @@
-@charset "UTF-8";
-/* CSS Document */
+
+.container_12 {
+	background: #FFF;
+}
+
+body {
+	background: url("../img/foggy_birds.png")
+}
+
+/*articlename*/
+p {
+	font-family: 'Grand Hotel', cursive;
+	color: #fdce59;
+	text-align: center;
+	font-size: 82px;
+    }
+
+/*articleheading*/
+#h3 {
+	text-align: justify;
+	font-family: 'Baumans', cursive;
+	display: inline;
+}
+
+/*img1*/
+#skills img
+ {	width: 100%;
+	height: 100%;
+	}
+
+/*side*/
+#side {
+	background: #fdce59;
+}
+
+/*main*/
+#main {
+	background: #e78c9c;
+}
+
+#anatomy {
+	text-align: justify;
+	font-family: 'Baumans', cursive;
+}
+
+#behavior {
+	text-align: justify;
+	font-family: 'Baumans', cursive;
+}
+
+#jumps {
+	text-align: justify;
+	font-family: 'Baumans', cursive;
+}
 
