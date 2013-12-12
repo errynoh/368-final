@@ -234,3 +234,171 @@ a:hover, a:focus {
 	background-color: #f3836c;	z-index: 0;
 }
 
+
+/*BOX*/
+
+
+
+
+#Content {
+	font-family: 'Oleo Script', cursive;
+	color:#666;
+	text-align:justify;
+	background-color:white;
+	font-size:1.250em;
+  width:80%;
+  height:100%;
+  max-width:60em;
+	margin:0% auto 0;
+  padding:4em 4em;
+  overflow:hidden;
+  
+	article {
+  	width:65%;
+    float:left;
+    box-sizing:border-box;
+    background:#FFF;
+    padding:2em;
+    position:relative;
+    
+    h2 {
+      font:2em/1.2 'Oswald',Helvetica,sans-serif;
+      text-transform: uppercase;
+      margin:0 0 1rem;
+    }
+    
+    p {
+      text-indent:2em;
+      text-align:justify;
+      margin:0 0 1.5em;
+    }
+  }
+}
+
+form header {
+  margin: 0 0 20px 0; 
+  padding: 100px 0 0 200px;
+}
+form header div {
+  font-size: 90%;
+  color: #999;
+}
+form header h2 {
+  margin: 0 0 5px 0;
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width : 1024px) {
+  
+ 
+ 
+  #Content {
+    width:90%;
+    min-width:;
+    
+    article {
+      font-size:80%;
+    }
+  }
+  
+}
+
+@media only screen and (max-width : 480px) {
+  
+
+  
+  #Content {
+    width:100%;
+    margin-top:0;
+    
+    article {
+      font-size:75%;
+      width:100%;
+      display:block;
+    }
+  }
+  
+}
